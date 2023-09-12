@@ -50,8 +50,11 @@ name: 'Terraform'
 #   pull_request:
 #     branches: ["main"]
 on:
+  pull_request:
+    branches: ["main"]
   pull_request_review:
-    types: [submitted]
+    types:
+      - submitted
 
 
 
