@@ -101,7 +101,7 @@ jobs:
 
     # Generates an execution plan for Terraform
     # Generates an execution plan for Terraform
-    - name: Terraform Plan Execution
+    - name: Terraform Plan
       run: terraform plan -input=false
       # env:
       #   GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
