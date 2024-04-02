@@ -1,4 +1,4 @@
-# Installing K8's in Google Cloud using Terraform and Githu Actions
+# Installing K8's in Google Cloud using Terraform and GitHub Actions
 
 **Step -1**
 
