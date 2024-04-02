@@ -1,9 +1,10 @@
+#Installing K8's in Google Cloud using Terraform and Githu Actions
 
-##Step -1
+**Step -1**
 
 Clone/Dowload the code from Github and import into Visual Studio
 
-Step-2: Local setup
+**Step-2: Local setup**
 
 Please download the package from google and install it in your local.
 •	Install Terraform
@@ -11,26 +12,26 @@ Please download the package from google and install it in your local.
 •	Install Kubectl
 •	Install helm
 
-Step 3: Set up GCP Project
+**Step 3: Set up GCP Project**
 
 •	Login into google cloud.
 •	Google Cloud will give $300 free credits.
 •	Created your Project in GCP.
 
-Step 4: Connect the GCP from your local to run terraform commands.
+**Step 4: Connect the GCP from your local to run terraform commands.**
 
 •	Run gcloud auth application-default login command.
 •	It will open your browser, where you need to complete authorization.
 •	On successful authorization, you can execute the terraform commands, gcloud commands in your local.
 
-Step 5: Create GKE Cluster using terraform commands.
+**Step 5: Create GKE Cluster using terraform commands.**
 
 •	Execute Terraform init command to initialize your code.
 •	Execute terraform plan command to see what the services are being created in GCP before we apply.
 •	Execute terraform apply command to create the infrastructure in GCP.
 •	On Successful execution you can see your infrastructure in GCP.
 
-Step 6: Deploy sample application to GKE Cluster.
+**Step 6: Deploy sample application to GKE Cluster.**
 
 •	Execute below helm kubectl commands to deploy the ngnix
 
